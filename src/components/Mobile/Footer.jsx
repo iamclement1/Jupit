@@ -3,13 +3,7 @@ import Category  from "../../assets/MobileIcons/Category.svg";
 import More  from "../../assets/MobileIcons/More.svg";
 import Wallet from "../../assets/MobileIcons/Wallet.svg";
 import Swap from "../../assets/MobileIcons/Swap.svg";
-const FooterItem = ({ title, classProps }) => {
-    return (
-        <li className={`mx-4 cursor-pointer font-xs ${classProps}`}>
-            {title}
-        </li>
-    )
-}
+
 
 const Footer = () => {
     return (

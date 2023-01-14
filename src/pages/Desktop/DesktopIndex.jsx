@@ -1,7 +1,11 @@
+import { Navbar, Hero, Cards, Services, CTA, Footer} from '../../components/Desktop'
 const DesktopIndex = () => {
     return (
         <>
-            <h1>This is the Desktop view</h1>
+            <Navbar />
+            <Hero />
+            <Cards />
+            <Footer />
         </>
     )
 }

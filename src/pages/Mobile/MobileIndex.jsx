@@ -1,5 +1,5 @@
-import { Card } from "../../components/Mobile"
-import Footer from "../../components/Mobile/Footer"
+import { Card, Footer } from "../../components/Mobile"
+
 
 const MobileIndex = () => {
     return (
