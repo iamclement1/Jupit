@@ -1,45 +1,31 @@
 import { useEffect, useState } from 'react'
-// import { getCoinGecko } from './api/coingecko';
+
 import './App.css'
-import axios from 'axios';
+import useWindowDimensions from './hooks/windowDimensions';
 
 const App = () => {
-
-  const [coinData, setCoinData] = useState([]);
-  const auth_token = localStorage.getItem('token');
-
-  useEffect(() => {
-    axios.get('https://pro-api.coingecko.com/api/v3/', {
-      headers: {
-        Authorization : 'Bearer ' + auth_token,
-        ContentType: 'application/json'
-      },
-    })
-    .then((response) => {
-      const allCoins = response.data
-      setCoinData(allCoins);
-      console.log(setCoinData(allCoins));
-    })
-    .catch ((error) => {
-      console.error(error);
-    })
-  }, [auth_token])
-
-
+  const screenWidth = useWindowDimensions()?.width;
+  const largeScreenWidth = 768;
 
   return (
-    <div className="App">
-      {
-        coinData.map((coin, index) => {
-          return (
-            <div>
-              {data}
-            </div>
-          )
-        })
-      }
-    </div>
-  )
-}
+    <>
+      {/* RENDER MOBILE COMPONENTS HERE */}
+      {screenWidth < largeScreenWidth ? (
+        <div>
+          <h1>Mobile</h1>
+        </div>
+      ) : null}
+
+      {/* RENDER DESKTOP COMPONENTS HERE  */}
+      {screenWidth < largeScreenWidth ? null : (
+        <div>
+          <h1>Desktop</h1>
+        </div>
+      )}
+    </>
+  );
+};
+
 
 export default App
+
