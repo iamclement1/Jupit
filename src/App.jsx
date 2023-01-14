@@ -2,27 +2,29 @@ import { useEffect, useState } from 'react'
 
 import './App.css'
 import useWindowDimensions from './hooks/windowDimensions';
+import MobileIndex from './pages/Mobile/MobileIndex';
+import DesktopIndex from './pages/Desktop/DesktopIndex';
 
 const App = () => {
   const screenWidth = useWindowDimensions()?.width;
   const largeScreenWidth = 768;
 
   return (
-    <>
+    <div className='font-poppins body-font'>
       {/* RENDER MOBILE COMPONENTS HERE */}
       {screenWidth < largeScreenWidth ? (
         <div>
-          <h1>Mobile</h1>
+          <MobileIndex />
         </div>
       ) : null}
 
       {/* RENDER DESKTOP COMPONENTS HERE  */}
       {screenWidth < largeScreenWidth ? null : (
         <div>
-          <h1>Desktop</h1>
+          <DesktopIndex />
         </div>
       )}
-    </>
+    </div>
   );
 };
 
