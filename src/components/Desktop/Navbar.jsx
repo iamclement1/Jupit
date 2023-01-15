@@ -1,6 +1,5 @@
 
 import JupitLogo from '../../assets/DesktopIcons/Jupit__logo.svg'
-import { useState } from 'react';
 
 //navlink function 
 const NavbarItem = ({ title, classProps }) => {
@@ -12,7 +11,7 @@ const NavbarItem = ({ title, classProps }) => {
 }
 const Navbar = () => {
     return (
-        <nav className='w-full flex md:justify-between lg:justify-between items-center px-8 py-6'>
+        <nav className='w-full flex md:justify-between lg:justify-between items-center md:px-8 lg:px-16 py-6'>
             <div className='md:flex[0.5] lg:flex[0.5] flex-initial justify-center items-center'>
                 <img src={JupitLogo} alt="" className="w-[90px] cursor-pointer"/>
             </div>
