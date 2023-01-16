@@ -1,6 +1,7 @@
 import iPhone from '../../assets/DesktopImg/iPhone.png';
 import { BsCheck } from 'react-icons/bs';
 import { UserTestCard } from '../../components/Desktop';
+import starImg from '../../assets/DesktopIcons/star-image.svg';
 const CTA = () => {
     return (
         <>
@@ -52,6 +53,7 @@ const CTA = () => {
                 </main>
                 {/* User testimonies sessions  */}
                 <main className='w-full bg-[#1C1D93] '>
+                    <img src={starImg} alt="" className='relative inset-x-3/4 top-64'/>
                     <div className='text-center text-white py-24'>
                         <h1 className="font-bold text-4xl m-auto w-1/4 py-4 mb-2">
                             See what users' say about us

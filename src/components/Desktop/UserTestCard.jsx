@@ -43,9 +43,9 @@ const UserTestCard = () => {
             </main>
             {/* slider indicator */}
             <div className='flex justify-center space-x-1 py-6'>
-                <div className='w-4 h-4 bg-[#FFA000] rounded-full '></div>
-                <div className='w-4 h-4 bg-[#ffa200a6] rounded-full '></div>
-                <div className='w-4 h-4 bg-[#ffa20053] rounded-full '></div>
+                <div className='w-2 h-2 bg-[#FFA000] rounded-full '></div>
+                <div className='w-2 h-2 bg-[#ffa200a6] rounded-full '></div>
+                <div className='w-2 h-2 bg-[#ffa20053] rounded-full '></div>
             </div>
         </section>
     )
