@@ -5,6 +5,7 @@ const DesktopIndex = () => {
             <Navbar />
             <Hero />
             <Cards />
+            <CTA />
             <Footer />
         </>
     )
