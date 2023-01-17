@@ -1,11 +1,9 @@
 import iPhone from '../../assets/DesktopImg/iPhone.png';
 import { BsCheck } from 'react-icons/bs';
-import { UserTestCard } from '../../components/Desktop';
-import starImg from '../../assets/DesktopIcons/star-image.svg';
 const CTA = () => {
     return (
         <>
-            <section>
+            <section className='border border-red-900'>
                 {/* Desktop */}
                 <section className='md:hidden lg:block xl:block '>
                     <main className='flex justify-between m-auto w-5/6 bg-[#EDEDF6] rounded-md'>
@@ -106,22 +104,6 @@ const CTA = () => {
                         </div> */}
                     </main>
                 </section>
-
-                {/* User testimonies sessions  */}
-                <main className='w-full bg-[#1C1D93] '>
-                    <img src={starImg} alt="" className='relative inset-x-3/4 top-64' />
-                    <div className='text-center text-white py-24'>
-                        <h1 className="font-bold text-4xl m-auto w-1/4 py-4 mb-2">
-                            See what users' say about us
-                        </h1>
-                        <p className='w-[480px] m-auto mt-4'>
-                            This testimonies are much more; join us so we can hear your testimonies too
-                        </p>
-                    </div>
-
-                    {/* user test card cmp */}
-                    <UserTestCard />
-                </main>
             </section>
         </>
     )

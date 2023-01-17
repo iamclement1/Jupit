@@ -53,7 +53,7 @@ const Hero = () => {
                                 <hr className="border-b-4 mt-2 w-[120px]" />
                             </div>
                         </div>
-                        <div className='md:w-[300px] lg:w-[350px] flex shadow-md rounded-lg px-6 py-3 space-x-5 absolute bg-white md:left-1/4 lg:left-2/4 lg:top-full lg:mt-12'>
+                        <div className='md:w-[300px] lg:w-[350px] flex shadow-md rounded-lg px-6 py-3 space-x-5 absolute bg-white md:left-1/4 lg:left-2/4 xl:left-2/4 lg:top-full lg:mt-12 xl:mt-12'>
                             <img src={Profile} alt="" className='lg:w-[60px]' />
                             <div>
                                 <span className='text-[#262697] font-semibold md:text-xs lg:text-[15px] '>
