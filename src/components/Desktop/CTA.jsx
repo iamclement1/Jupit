@@ -3,7 +3,7 @@ import { BsCheck } from 'react-icons/bs';
 const CTA = () => {
     return (
         <>
-            <section className='border border-red-900'>
+            <section>
                 {/* Desktop */}
                 <section className='md:hidden lg:block xl:block '>
                     <main className='flex justify-between m-auto w-5/6 bg-[#EDEDF6] rounded-md'>
