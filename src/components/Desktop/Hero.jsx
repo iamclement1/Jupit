@@ -1,6 +1,7 @@
 import HeroImage from '../../assets/DesktopImg/HeroImage.png'
 import Ellipse from '../../assets/DesktopIcons/Ellipse.svg';
 import Profile from '../../assets/DesktopIcons/Profile.svg';
+import GroupIcon from '../../assets/DesktopIcons/Group.svg';
 
 const Hero = () => {
     return (
@@ -20,7 +21,7 @@ const Hero = () => {
                     </div>
                     <div className=' '>
                         <img src={HeroImage} alt="Hero_image" className='relative inset-x-0 top-0 md:w-[440px] lg:w-[540px]' />
-                        <div className='absolute md:inset-y-1/3 lg:inset-y-1/3 lg:inset-x-1/2 bg-white md:w-[180px] lg:w-[280px] md:h-[200px] lg:h-[250px] p-3 shadow-md rounded-md'>
+                        <div className='absolute md:mt-24 lg:mt-0 xl:mt-0 md:inset-y-1/3 lg:inset-y-1/3 lg:inset-x-1/2 bg-white md:w-[180px] lg:w-[280px] md:h-[200px] lg:h-[250px] p-3 shadow-md rounded-md'>
                             <div className='flex justify-between'>
                                 <span className=' md:px-3 lg:px-12 text-gray-400 font-normal'>Buy</span>
                                 <span className='text-gray-300'> | </span>
@@ -32,8 +33,9 @@ const Hero = () => {
                             <p className='text-center text-black md:text-sm lg:text-lg font-normal py-1'>
                                 $3.110,31
                             </p>
-                            <form action="" className='space-y-2'>
+                            <form action="" className='relative space-y-2'>
                                 <input className="appearance-none border rounded w-full md:py-1 lg:py-2 lg:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" />
+                                <img src={GroupIcon} alt="" className='absolute top-5 left-28 ' />
                                 <input className="appearance-none border rounded w-full md:py-1 lg:py-2 lg:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" />
                                 <div>
                                     <label htmlFor=""></label>

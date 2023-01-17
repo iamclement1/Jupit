@@ -29,7 +29,7 @@ const UserTestCard = () => {
                         <p className='text-[#FFA000] font-bold text-center text-xl mb-3 '>
                             All your crypto in one place
                         </p>
-                        <p className='text-gray-600 text-xs text-center md:3/6 lg:w-5/6 xl:w-5/6 md:px-5.5 lg:px-3.5  xl:px-3.5 m-auto mb-3'>
+                        <p className='text-gray-600 font-poppins text-xs text-center md:3/6 lg:w-5/6 xl:w-5/6 md:px-5.5 lg:px-3.5  xl:px-3.5 m-auto mb-3'>
                             We make sure that every cryptocurrency payment and transaction are processed seamlessly and quickly so that you can enjoy the result without any stress.
                         </p>
                     </div>
@@ -44,7 +44,7 @@ const UserTestCard = () => {
                         <p className='text-[#FFA000] font-bold text-center text-xl mb-3 '>
                             All your crypto in one place
                         </p>
-                        <p className='text-gray-600 text-xs text-center md:3/6 lg:w-5/6 xl:w-5/6 md:px-5.5 lg:px-3.5  xl:px-3.5 m-auto mb-3'>
+                        <p className='text-gray-600 font-poppins text-xs text-center md:3/6 lg:w-5/6 xl:w-5/6 md:px-5.5 lg:px-3.5  xl:px-3.5 m-auto mb-3'>
                             We make sure that every cryptocurrency payment and transaction are processed seamlessly and quickly so that you can enjoy the result without any stress.
                         </p>
                     </div>
