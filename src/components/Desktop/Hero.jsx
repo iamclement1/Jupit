@@ -39,7 +39,7 @@ const Hero = () => {
                                 <input className="appearance-none border rounded w-full md:py-1 lg:py-2 lg:px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" />
                                 <div>
                                     <label htmlFor=""></label>
-                                    <button class="bg-[#262697] w-full uppercase text-white md:py-1 lg:py-2 lg:px-3 rounded focus:outline-none focus:shadow-outline" type="button">
+                                    <button className="bg-[#262697] w-full uppercase text-white md:py-1 lg:py-2 lg:px-3 rounded focus:outline-none focus:shadow-outline" type="button">
                                         sell
                                     </button>
                                 </div>
