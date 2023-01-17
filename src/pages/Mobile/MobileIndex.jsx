@@ -1,10 +1,11 @@
-import { Card, Footer } from "../../components/Mobile"
+import { Card, Footer, CoinGecko } from "../../components/Mobile"
 
 
 const MobileIndex = () => {
     return (
         <>
         <Card />
+        <CoinGecko />
         <Footer />
         </>
     )

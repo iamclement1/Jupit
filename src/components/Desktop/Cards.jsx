@@ -12,7 +12,7 @@ import BigStar from '../../assets/DesktopIcons/big-star-img.svg';
 const Cards = () => {
     return (
         <>
-            <section className='bg-gray-200'>
+            <section className='bg-gray-200 w-full'>
                 <div className="flex jusity-between items-center align-center md:px-6 lg:px-20 md:space-x-3 lg:space-x-6 md:py-8 lg:py-12">
                     <div className='bg-white rounded-3xl shadow-md lg:px-2'>
                         <div className='bg-white shadow-md rounded-full p-3 w-12 h-12 mx-auto mt-6'>

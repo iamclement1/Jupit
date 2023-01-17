@@ -6,4 +6,5 @@ export { default as Hero } from './Hero';
 export { default as CTA } from './CTA';
 export { default as UserTestCard } from './UserTestCard';
 export { default as AppDownload } from './AppDownload';
+export { default as JoinUs } from './JoinUs';
 

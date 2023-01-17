@@ -1,4 +1,4 @@
-import { Navbar, Hero, Cards, Services, CTA, AppDownload, Footer} from '../../components/Desktop'
+import { Navbar, Hero, Cards, Services, CTA, AppDownload, JoinUs, Footer} from '../../components/Desktop'
 const DesktopIndex = () => {
     return (
         <>
@@ -7,6 +7,7 @@ const DesktopIndex = () => {
             <Cards />
             <CTA />
             <AppDownload />
+            <JoinUs />
             <Footer />
         </>
     )
