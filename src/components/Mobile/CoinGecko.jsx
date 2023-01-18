@@ -19,7 +19,7 @@ const CoinGecko = () => {
 
     return (
         <>
-            <main>
+            <main className="relative -z-10">
                 <div className='px-6 py-6 flex justify-between'>
                     <button className='bg-[#262697] text-white p-3 w-[145px] text-sm font-semibold  rounded-md cursor pointer '>Fund</button>
                     <button className='border-[#262697] outline outline-1 outline-gray-200  text-sm font-semibold text-dark p-3 w-[145px] rounded-md cursor pointer '>Withdraw</button>

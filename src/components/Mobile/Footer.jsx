@@ -9,11 +9,11 @@ const Footer = () => {
     return (
         <div className="fixed inset-x-0 bottom-16 footer-pattern">
                 <div>
-                    <div className="bg-[#262697] rounded-full w-20 h-20 flex mx-auto align-center shadow-lg">
+                    <div className="bg-[#262697] rounded-full w-20 h-20 flex mx-auto align-center shadow-lg relative z-10">
                         <img src={Swap} alt="Swap__icon" className="w-8 mx-auto" />
                     </div>
                 </div>
-            <footer className="shadow-inner fixed inset-x-0 bottom-0 p-4">
+            <footer className="shadow-inner fixed inset-x-0 bottom-0 p-4 bg-white">
             {/* <ul className="text-[#262697] flex list-none justify-between">
                 {[
                     "Home", "Wallet", "Transaction", "More"
@@ -30,7 +30,7 @@ const Footer = () => {
                     <img src={Wallet} alt="Icon" />
                     <span className="font-bold ">Wallet</span>
                 </li>
-                <li className="flex flex-col cursor-pointer items-center leading-loose text-md">
+                <li className="flex flex-col cursor-pointer items-center leading-loose text-md z-10">
                     <img src={Activity} alt="Icon" />
                     <span className="font-bold ">Tranactions</span>
                 </li>

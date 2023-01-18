@@ -3,7 +3,7 @@ import { TransList } from "../../api/transcardList"
 
 const Transaction = () => {
     return (
-        <>
+        <section className="relative -z-1">
             <div className='flex justify-between px-6 py-3'>
                 <span className='font-semibold'>Recent Transactions</span>
                 <span className='font-semibold text-blue-900'>See all</span>
@@ -32,7 +32,7 @@ const Transaction = () => {
                     )
                 })
             }
-        </>
+        </section>
     )
 }
 
