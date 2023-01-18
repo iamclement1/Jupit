@@ -7,7 +7,7 @@ import Swap from "../../assets/MobileIcons/Swap.svg";
 
 const Footer = () => {
     return (
-        <div className="fixed inset-x-0 bottom-16">
+        <div className="fixed inset-x-0 bottom-16 footer-pattern">
                 <div>
                     <div className="bg-[#262697] rounded-full w-20 h-20 flex mx-auto align-center shadow-lg">
                         <img src={Swap} alt="Swap__icon" className="w-8 mx-auto" />

@@ -1,20 +1,21 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import CoinSwiperCard from "./CoinSwiperCard.jsx";
 
 const CoinGecko = () => {
-    const [coinData, setCoinData] = useState([]);
-    const url = 'https://api.coingecko.com/api/v3/coins/list'
-    useEffect(() => {
-        axios.get(url)
-            .then((response) => {
-                const coin = response.data;
-                // console.log(coin);
-                setCoinData(coin)
-            })
-            .catch((err) => {
-                console.log(err);
-            });
-    }, [])
+    // const [coinData, setCoinData] = useState([]);
+    // const url = 'https://api.coingecko.com/api/v3/coins/list'
+    // useEffect(() => {
+    //     axios.get(url)
+    //         .then((response) => {
+    //             const coin = response.data;
+    //             // console.log(coin);
+    //             setCoinData(coin)
+    //         })
+    //         .catch((err) => {
+    //             console.log(err);
+    //         });
+    // }, [])
 
     return (
         <>
@@ -27,6 +28,7 @@ const CoinGecko = () => {
                     <span className='font-semibold'>Assets</span>
                     <span className='font-semibold text-blue-900'>See all</span>
                 </div>
+                <CoinSwiperCard />
             </main>
         </>
     )

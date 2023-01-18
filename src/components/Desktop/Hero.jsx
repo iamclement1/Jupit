@@ -21,7 +21,7 @@ const Hero = () => {
                     </div>
                     <div className=' '>
                         <img src={HeroImage} alt="Hero_image" className='relative inset-x-0 top-0 md:w-[440px] lg:w-[540px]' />
-                        <div className='absolute md:mt-24 lg:mt-0 xl:mt-0 md:inset-y-1/3 lg:inset-y-1/3 lg:inset-x-1/2 bg-white md:w-[180px] lg:w-[280px] md:h-[200px] lg:h-[250px] p-3 shadow-md rounded-md'>
+                        <div className='absolute md:mt-24 lg:mt-0 xl:mt-0 md:inset-y-1/3 lg:inset-y-1/3 2xl:inset-y-1/3 lg:inset-x-1/2 xl:inset-x-1/2 bg-white md:w-[180px] lg:w-[280px] md:h-[200px] lg:h-[250px] p-3 shadow-md rounded-md'>
                             <div className='flex justify-between'>
                                 <span className=' md:px-3 lg:px-12 text-gray-400 font-normal'>Buy</span>
                                 <span className='text-gray-300'> | </span>

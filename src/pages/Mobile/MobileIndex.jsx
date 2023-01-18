@@ -1,4 +1,4 @@
-import { Card, Footer, CoinGecko } from "../../components/Mobile"
+import { Card, Footer, CoinGecko, Transaction } from "../../components/Mobile"
 
 
 const MobileIndex = () => {
@@ -6,6 +6,7 @@ const MobileIndex = () => {
         <>
         <Card />
         <CoinGecko />
+        <Transaction />
         <Footer />
         </>
     )

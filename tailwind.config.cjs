@@ -11,6 +11,9 @@ module.exports = {
         'montserrat' : ['Montserrat', 'sans-serif'],
         'poppins' : ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'footer-pattern': "url('/assets/DesktopImg/Subtract.svg')",
+      },
     },
   },
   plugins: [],
