@@ -5,9 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.Deck {
+/* .Deck {
     transition: transform 0.3s ease;
-}
+} */
 
  /* .Deck-selected {
     transform: scale(1);
@@ -15,8 +15,8 @@
 
 /* .Deck-unselected {
     transform: scale(0.3);
-} */ */
+} */ 
 
-.swiper-fixed-width-300 {
+/* .swiper-fixed-width-300 {
     width: 700px;
-}
+} */
